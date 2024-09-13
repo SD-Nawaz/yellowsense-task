@@ -1,0 +1,65 @@
+.bookmarks-container{
+    background-image:url('https://cdn.pixabay.com/photo/2018/09/22/11/43/application-3695107_1280.jpg');
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto';
+}
+.bookmark-card{
+    /* border: 1px solid #d1c3c3; */
+    border-radius: 8px;
+    padding: 15px;
+    background-color:#faf9f9;
+    transition: box-shadow 0.3s;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 600px;
+}
+.link{
+    text-decoration: none;
+}
+.job-title{
+    color: #36454F;
+}
+.jobDetails{
+    color: #3b3c36;
+    list-style: none;
+}
+.bookmark-heading{
+    color: white;
+    text-align: center;
+}
+
+.no-data{
+    color: #232b2b;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+.button {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;;
+    word-break: break-word;
+    border: 0;
+}
